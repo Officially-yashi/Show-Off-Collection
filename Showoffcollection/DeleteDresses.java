@@ -54,7 +54,7 @@ public class DeleteDresses extends JFrame {
                 return;
             }
 
-            try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/showoffcollection", "root", "Yashi@6420")) {
+            try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/showoffcollection", "root", "Yooo")) {
                 String sql = "DELETE FROM dresses WHERE name = ? AND price = ?";
                 try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
                     pstmt.setString(1, dressName);
