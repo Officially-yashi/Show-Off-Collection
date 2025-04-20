@@ -76,7 +76,7 @@ public class RentDresses extends JFrame {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/showoffcollection", "root", "Yashi@6420");
+                "jdbc:mysql://localhost:3306/showoffcollection", "root", "Yooo");
 
             String sql = "INSERT INTO rentdresses (clientid, dressid) VALUES (?, ?)";
             PreparedStatement stmt = con.prepareStatement(sql);
