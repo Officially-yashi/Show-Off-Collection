@@ -62,7 +62,7 @@ public class Showrentdresses extends JFrame {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/showoffcollection", "root", "Yashi@6420");
+                "jdbc:mysql://localhost:3306/showoffcollection", "root", "Yooo");
 
             String sql = "SELECT d.name, d.price, d.available " +
                          "FROM rentdresses r " +
