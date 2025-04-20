@@ -9,7 +9,7 @@ private  JPasswordField passwordfield;
 
 public AddAdmin()
 {
-    setTitle("Add Admin");
+    setTitle("Add workers");
     setSize(400, 300);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -38,7 +38,7 @@ public AddAdmin()
        
     
 
-        JButton submitButton = new JButton("Add Admin");
+        JButton submitButton = new JButton("Add Workers");
         submitButton.setForeground(Color.WHITE); // Button text color
         submitButton.setBackground(Color.DARK_GRAY); // Button background color
         submitButton.setFocusPainted(false);
