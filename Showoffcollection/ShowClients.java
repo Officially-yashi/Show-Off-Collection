@@ -20,7 +20,7 @@ public class ShowClients extends JFrame {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/showoffcollection", "root", "Yashi@6420");
+                "jdbc:mysql://localhost:3306/showoffcollection", "root", "Yooo");
 
             String query = "SELECT * FROM clients";
             Statement stmt = con.createStatement();
