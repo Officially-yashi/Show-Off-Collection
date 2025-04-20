@@ -107,7 +107,7 @@ public void addAdminToDatabase(String firstname,String lastname,String email,Str
 {
     try{
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/showoffcollection","root","Yashi@6420");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/showoffcollection","root","Yooo");
 
         String query="Insert into users(firstname,lastname,email,phone,password,accType) values(?,?,?,?,?,?)";
         PreparedStatement pstmt = con.prepareStatement(query);
