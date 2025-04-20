@@ -105,7 +105,7 @@ public class AddClient extends JFrame {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/showoffcollection", "root", "Yashi@6420");
+                "jdbc:mysql://localhost:3306/showoffcollection", "root", "Yooo");
 
             String query = "INSERT INTO clients (id, firstname, lastname, email, phone, address) VALUES (?,?, ?, ?, ?, ?)";
             PreparedStatement pstmt = con.prepareStatement(query);
