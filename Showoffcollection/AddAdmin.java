@@ -38,7 +38,7 @@ public AddAdmin()
        
     
 
-        JButton submitButton = new JButton("Add Workers");
+        JButton submitButton = new JButton("Add workers");
         submitButton.setForeground(Color.WHITE); // Button text color
         submitButton.setBackground(Color.DARK_GRAY); // Button background color
         submitButton.setFocusPainted(false);
